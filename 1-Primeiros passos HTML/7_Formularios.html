@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <main>
+        <h1>Formulario</h1>
+        <br>
+
+        <form>
+            <!-- NOME -->
+            <div>
+                <label for="texto">Nome:</label>
+                <input type="text" id="texto" name="nome" placeholder="Informe o nome..">
+            </div>
+
+            <!-- SENHA -->
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha">
+            </div>
+
+            <!-- E-MAIL -->
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" name ="email" id="email">
+            </div>
+
+            <!-- DATA DE NASCIMENTO -->
+            <div>
+                <label for="data">Data de Nascimento:</label>
+                <input type="date" name ="data" id="data">
+            </div>
+
+            <!-- HORARIRO -->
+            <div>
+                <label for="hora">Horario:</label>
+                <input type="time" name ="data" id="hora">
+            </div>
+
+            <!-- NUMERO -->
+            <div>
+                <label for="numeor">numero:</label>
+                <input type="number" name ="numero" id="numero">
+            </div>
+
+            <!-- ARQUIVO -->
+            <div>
+                <label for="arquvio">arquvio:</label>
+                <input type="file" name ="arquvio" id="arquvio">
+            </div>
+
+            <!-- URL -->
+            <div>
+                <label for="endereço">endereço URL:</label>
+                <input type="url" name ="endereço" id="endereço">
+            </div>
+
+            <!-- COR -->
+            <div>
+                <label for="cor">escolha cor:</label>
+                <input type="color" name ="cor" id="cor">
+            </div>
+
+            <!-- BARRA DE QUANTIDADE -->
+            <div>
+                <label for="barra">quantidade:</label>
+                <input type="range" name ="barra" id="barra">
+            </div>
+
+            <!-- CAIXA DE MARCAR(SELEÇÃO) -->
+            <div>
+                <label for="caixa">marque:</label>
+                <input type="checkbox" name ="caixa" id="caixa">
+            </div>
+
+            <!-- CAIXA UNICA -->
+            <div>
+                <label for="unica">caixa unica:</label>
+                <input type="radio" name ="unica" id="unica">
+            </div>
+
+            <!-- LIMPAR -->
+            <div>
+                <label for="limpar"></label>
+                <input type="reset" name ="limpar" id="limpar" value="Limpar">
+            </div>
+
+            <!-- ENIVAR O formulario -->
+            <div>
+                <!-- <label for="envia">enviar Formulario:</label> -->
+                <input type="submit" name ="envia" id="envia" value="Enviar">
+            </div>
+
+            <!-- BLOCO DE OPÇÕES -->
+            <br>
+            <div>
+                <select name="select" id="select">
+                    <option value="" disabled selected>Escolha uma das opções...</option>
+                    <option value="receita">Receita</option>
+                    <option value="despesa">Despesa</option>
+                    <option value="transferencia">Transferencia</option>
+                </select>
+            </div>
+            <br>
+
+            <!-- CAIXA DE TEXTO -->
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+        </form>
+    </main>
+</body>
+</html>
