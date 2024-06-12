@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+
+.roda{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.load{
+    margin: 2rem;
+    margin-top: 4rem;
+    font-size: 5rem;
+    color: blueviolet;
+    animation: load 1s infinite;
+}
+
+@keyframes load{
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateX(180deg);
+    }
+} 
+    </style>
+</head>
+<body>
+    <div class="load">
+        <i class="roda"></i>
+    </div>
+</body>
+</html>

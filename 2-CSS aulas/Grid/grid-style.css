@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+
+.box{
+    background-color: blue;
+    color: aliceblue;
+    border: 10px solid red;
+    border-radius: 7px;
+    font-family: arial;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.box p, button{
+    font-size: 2rem;
+}
+
+.boxes{
+    height: calc(100vh);
+    position: relative;
+
+    display: grid;
+    justify-content: flex-start;
+    gap: 2rem 5rem; 
+
+    grid-template-columns: 1fr 1fr;
+}
