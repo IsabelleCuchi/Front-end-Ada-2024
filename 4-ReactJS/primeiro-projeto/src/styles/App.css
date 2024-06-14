@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+body {
+  background-color: #222222;
+  color: aliceblue;
+  font-family: "roboto", sans-serif;
+}
+
+section#article {
+  max-width: 1240px;
+  padding: 0 2rem;
+  margin: 4rem 6rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}
